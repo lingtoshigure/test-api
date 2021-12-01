@@ -1,0 +1,12 @@
+syntax="proto3"
+
+package demo;
+
+option go_package="output\a";
+
+message TreeId {
+    
+    string oid = 1;
+
+    string id = 2 ;
+}
